@@ -7,6 +7,8 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 STATIC_DIR=os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 SECRET_KEY = 'django-insecure-x)ebj%k057l3-)$t*=pq4(wvko9uu*dyd7@!%a(znw66^7%w)c'
 
