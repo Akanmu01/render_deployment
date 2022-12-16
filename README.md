@@ -24,16 +24,15 @@ python manage.py migrate
 Comment the database section out completely and paste the follwing lines of code beneath it.
 
 ```
-DATABASES = {
-    'default': {
-        'ENGINE': "django.db.backends.postgresql_psycopg2"
-        'HOST': os.environ['HOST'],
-        'NAME': os.environ['NAME'],
-        'USER': os.environ['USER'],
-        'PASSWORD': os.environ['PASSWORD'],
-        'PORT': os.environ['PORT'],
-
-    }
+DATABASES = {  
+    'default': {  
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'database_name',  
+        'USER': 'database_user',  
+        'PASSWORD': 'Database_password',  
+        'HOST': 'database_host.oregon-postgres.render.com',  
+        'PORT': '5432',
+    }  
 }
 ```
 
