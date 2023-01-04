@@ -94,3 +94,17 @@ DATABASES = {
 # https://pgweb-demo.fly.dev
 click on scheme and paste your external connection string there then login
 ```
+
+
+
+# After connecting to render database
+```
+Run the following command locally
+python manage.py makemigration
+python manage.py migrate
+python manage.py createsuperuser
+
+
+# Note: You have to do this locally, you don't have access to render terminal since you're using free account there
+
+```
