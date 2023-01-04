@@ -78,3 +78,11 @@ Don't forget to import dj-database-url at the beginning of the file
 import dj_database_url
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#database
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default=database external connection string that start with postgre',
+        conn_max_age=600
+    )
+}
+```
