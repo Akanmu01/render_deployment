@@ -35,13 +35,13 @@ DATABASES = {
     }  
 }
 ```
-#build command
+# Build command
 
 ```
 ./build.sh
 ```
 
-##start command
+# Start command
 
 ```
 gunicorn project_name.wsgi:application
