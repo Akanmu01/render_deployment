@@ -86,3 +86,11 @@ DATABASES = {
     )
 }
 ```
+
+
+# Access your database data here
+
+```
+# https://pgweb-demo.fly.dev
+click on scheme and paste your external connection string there then login
+```
