@@ -35,8 +35,17 @@ DATABASES = {
     }  
 }
 ```
+#build command
 
+```
+./build.sh
+```
 
+##start command
+
+```
+gunicorn project_name.wsgi:application
+```
 
 ## Using Default Database
 
