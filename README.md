@@ -68,3 +68,13 @@ Comment the database section out completely and paste the follwing lines of code
 
 DATABASES = {}
 ```
+
+# To setup database on render click new then select postgrel db
+
+```
+Fill in your name and the name of the database
+
+Don't forget to import dj-database-url at the beginning of the file
+import dj_database_url
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#database
